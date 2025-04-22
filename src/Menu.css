@@ -1,0 +1,28 @@
+.menu {
+     padding: 4rem 2rem;
+     background-color: #ffffff;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+   }
+   
+   .quemsou {
+     max-width: 300px;
+     width: 100%;
+     margin-bottom: 1.5rem;
+   }
+   
+   .fotoisa {
+     max-width: 300px;
+     width: 100%;
+     margin-bottom: 2rem;
+   }
+   
+   .menu p {
+     max-width: 700px;
+     text-align: justify;
+     font-size: 1.1rem;
+     line-height: 1.6;
+   }
+   
