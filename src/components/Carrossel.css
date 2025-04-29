@@ -1,0 +1,60 @@
+/* Container geral do carrossel */
+.carousel-container {
+  background-color: #F6F3F1;     /* Cor de fundo clara */
+  padding: 2rem 0;              /* Espaço em cima e embaixo */
+  text-align: center;           /* Centraliza o texto */
+  color: white;                 /* Cor do texto */
+  font-family: 'Arial', sans-serif;  /* Tipo de fonte */
+  display: flex;               
+  flex-direction: column;      /* Itens em coluna (um em cima do outro) */
+  align-items: center;         /* Centraliza no meio da tela */
+}
+
+/* Título acima do carrossel */
+.tituloCarrossel {
+  width: 500px;                /* Largura fixa */
+  max-width: 90vw;             /* Não passa de 90% da tela */
+  margin-bottom: 0.4rem;       /* Espaço entre o título e o carrossel */
+  z-index: 3;                  /* Fica por cima de outros elementos */
+}
+
+/* Parte do carrossel com imagem e setas */
+.carousel {
+  display: flex;              
+  align-items: center;        /* Centraliza na vertical */
+  justify-content: center;    /* Centraliza na horizontal */
+  gap: 0rem;                  
+  margin-top: -1rem;          /* Sobe um pouco */
+}
+
+/* Botões de seta */
+.nav-button {
+  background-color: #4F6780;  /* Cor azul escura */
+  border-radius: 50%;         /* Botão redondo */
+  padding: 1rem;              
+  cursor: pointer;            /* Mãozinha ao passar o mouse */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  margin-top: -250px;         /* Sobe os botões */
+  gap: -30px;                 /* Esse gap não tem efeito aqui */
+}
+
+/* Área da imagem */
+.image-wrapper {
+  position: relative;         /* Para posicionar coisas por cima */
+  max-width: 100%;
+}
+
+/* A imagem do carrossel */
+.carousel-image {
+  width: 1000px;              /* Largura padrão */
+  max-width: 90vw;            /* Responsivo para telas menores */
+  height: auto;               /* Altura ajusta sozinha */
+  object-fit: contain;        /* Garante que a imagem caiba certinho */
+  margin: 0;
+  z-index: 2;                 
+  margin-top: -250px;         /* Sobe a imagem */
+}

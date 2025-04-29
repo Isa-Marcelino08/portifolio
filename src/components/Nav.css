@@ -1,0 +1,102 @@
+/* Define estilo para os elementos 'html' e 'body' */
+html, body {
+  margin: 0; /* Remove margens dos elementos */
+  padding: 0; /* Remove espaçamento interno */
+  height: 100%; /* Define altura como 100% da janela */
+  scroll-behavior: smooth; /* Suaviza a rolagem da página */
+  font-family: Arial, sans-serif; /* Define a fonte padrão como Arial ou sans-serif */
+}
+
+/* Define estilo para o elemento raiz ('#root') */
+#root {
+  min-height: 100%; /* Altura mínima de 100% da janela */
+  display: flex; /* Utiliza layout flexbox */
+  flex-direction: column; /* Alinha os filhos em coluna */
+}
+
+/* Define estilo para a barra de navegação ('navbar') */
+.navbar {
+  background-color: #d0dce6; /* Cor de fundo da barra */
+  display: flex; /* Layout flexbox */
+  justify-content: space-between; /* Espaça elementos igualmente */
+  align-items: center; /* Alinha os elementos verticalmente ao centro */
+  padding: 16px 40px; /* Espaçamento interno: 16px (vertical), 40px (horizontal) */
+  position: fixed; /* Fixa a barra no topo da página */
+  top: 0; /* Define a posição no topo */
+  width: 100%; /* Barra ocupa toda a largura */
+  z-index: 10; /* Prioriza a exibição da barra sobre outros elementos */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adiciona sombra para profundidade */
+  font-family: Arial, Helvetica, sans-serif; /* Define fontes alternativas */
+}
+
+/* Define um espaçamento antes do conteúdo para compensar a altura da navbar */
+body::before {
+  content: ''; /* Insere um elemento vazio */
+  display: block; /* Exibe o elemento como um bloco */
+  height: 72px; /* Altura de 72px correspondente à navbar */
+}
+
+/* Define estilo para a área do logotipo ('logo-area') */
+.logo-area {
+  display: flex; /* Utiliza layout flexbox */
+  align-items: center; /* Alinha os elementos ao centro verticalmente */
+  gap: 8px; /* Espaço de 8px entre elementos */
+}
+
+/* Define estilo para o logotipo ('logo') */
+.logo {
+  height: 40px; /* Define altura do logotipo como 40px */
+}
+
+/* Define estilo para o texto do logotipo ('logo-text') */
+.logo-text {
+  font-weight: bold; /* Define o texto como negrito */
+  font-size: 18px; /* Define tamanho da fonte como 18px */
+  color: #24374b; /* Define a cor do texto */
+  gap: 10px; /* Espaço entre elementos (se aplicável) */
+}
+
+/* Define estilo para os links da navbar ('nav-links') */
+.nav-links {
+  list-style: none; /* Remove os marcadores padrão de lista */
+  display: flex; /* Utiliza layout flexbox */
+  gap: 24px; /* Espaço de 24px entre os links */
+  font-weight: bold; /* Define os links como negrito */
+  font-size: 16px; /* Define o tamanho da fonte como 16px */
+  padding-right: 80px; /* Espaço à direita de 80px */
+  margin: 0; /* Remove margens da lista */
+}
+
+/* Define estilo para os links dentro da navbar ('nav-links a') */
+.nav-links a {
+  text-decoration: none; /* Remove o sublinhado padrão */
+  color: #24374b; /* Define a cor do texto dos links */
+}
+
+/* Estilo para hover nos links ('nav-links a:hover') */
+.nav-links a:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Define estilo para as seções ('section') */
+.section {
+  height: 100vh; /* Altura ocupa toda a tela */
+  background-color: #2e4053; /* Define cor de fundo da seção */
+  color: white; /* Define a cor do texto como branco */
+  display: flex; /* Utiliza layout flexbox */
+  align-items: center; /* Alinha os elementos verticalmente ao centro */
+  justify-content: center; /* Alinha os elementos horizontalmente ao centro */
+  font-size: 36px; /* Define o tamanho da fonte como 36px */
+  padding-top: 72px; /* Adiciona espaçamento interno superior de 72px */
+}
+
+/* Estilo alternativo para seção ('section.alt') */
+.section.alt {
+  background-color: #34495e; /* Define cor de fundo diferente */
+}
+
+/* Define estilo adicional para o logotipo ('logo') */
+.logo {
+  width: auto; /* Define largura automática */
+  height: 60px; /* Define altura do logotipo como 60px */
+}

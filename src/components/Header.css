@@ -1,0 +1,59 @@
+/* Cor de fundo do corpo da página */
+body {
+  background-color: #2f4156; /* Cor de fundo escura */
+}
+
+/* Estilo do header */
+.header {
+  display: flex; /* Usa Flexbox para alinhar os elementos */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  min-height: 100vh; /* Ocupa toda a altura da tela */
+  width: 100vw; /* Ocupa toda a largura da tela */
+  background-color: #2f4156; /* Cor de fundo igual ao body */
+  margin-top: 5400px; /* Grande margem no topo */
+  margin-bottom: 50px; /* Pequena margem na parte inferior */
+  overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse os limites */
+}
+
+/* Estilo da imagem com a classe telaInicial */
+.telaInicial {
+  max-width: 70%; /* Limita a largura da imagem a 70% */
+  max-height: 70%; /* Limita a altura da imagem a 70% */
+  object-fit: contain; /* Ajusta a imagem sem distorção */
+}
+
+/* Estilo para a estrela */
+.estrela {
+  position: absolute; /* Posiciona de forma absoluta */
+  top: 90px; /* Distância do topo */
+  left: 120px; /* Distância da esquerda */
+  width: 200px; /* Largura da estrela */
+}
+
+/* Estilo para o selo */
+.Selo {
+  position: absolute;
+  bottom: 20px; /* Distância da parte inferior */
+  left: 80px; /* Distância da esquerda */
+  width: 500px; /* Largura do selo */
+  transform: rotate(-9deg); /* Rotaciona o selo */
+}
+
+/* Estilo para o globo */
+.Globo {
+  position: absolute;
+  bottom: 10px; /* Distância da parte inferior */
+  right: 70px; /* Distância da direita */
+  width: 470px; /* Largura do globo */
+  transform: rotate(10deg); /* Rotaciona o globo */
+}
+
+/* Estilo para a lua */
+.Lua {
+  position: absolute;
+  top: 80px; /* Distância do topo */
+  right: 70px; /* Distância da direita */
+  width: 270px; /* Largura da lua */
+  transform: rotate(20deg); /* Rotaciona a lua */
+}

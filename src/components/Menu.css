@@ -1,0 +1,79 @@
+/* Define o estilo geral da seção com a classe 'tela2' */
+.tela2 {
+  background-color: #F6F3F1; /* Cor de fundo da tela */
+  min-height: 100vh; /* Define a altura mínima como 100% da altura da janela */
+  display: flex; /* Utiliza o layout flexbox */
+  justify-content: center; /* Alinha os itens ao centro horizontalmente */
+  align-items: center; /* Alinha os itens ao centro verticalmente */
+  font-family: Arial, sans-serif; /* Define a fonte como Arial com fallback para sans-serif */
+  padding: 2rem; /* Adiciona espaçamento interno de 2 rem */
+  position: relative; /* Define a posição relativa para posicionamento interno */
+}
+
+/* Estilo para a classe 'menu' */
+.menu {
+  display: flex; /* Utiliza layout flexbox */
+  flex-direction: column; /* Alinha os itens em coluna */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  position: relative; /* Define a posição relativa */
+  text-align: center; /* Centraliza o texto dentro do elemento */
+}
+
+/* Estilo para o topo da seção */
+.topo {
+  display: flex; /* Utiliza layout flexbox */
+  justify-content: center; /* Alinha os itens ao centro horizontalmente */
+  align-items: flex-start; /* Alinha os itens no início verticalmente */
+  gap: 2rem; /* Espaçamento entre os itens de 2 rem */
+  margin-bottom: 2rem; /* Margem inferior de 2 rem */
+}
+
+/* Estilo para a classe 'quemsou' */
+.quemsou {
+  width: 450px; /* Define a largura como 450px */
+  height: auto; /* Define a altura automática para manter proporção */
+  z-index: 2; /* Define a ordem de empilhamento */
+  margin-top: 50px; /* Margem superior de 50px */
+  margin-left: 90px; /* Margem esquerda de 90px */
+}
+
+/* Estilo para a classe 'fotoisa' */
+.fotoisa {
+  width: 680px; /* Define a largura como 680px */
+  height: auto; /* Define a altura automática para manter proporção */
+  margin: 0; /* Remove margens */
+  z-index: 1; /* Define a ordem de empilhamento */
+  transform: rotate(6deg) translateY(20px); /* Rotaciona em 6 graus e desloca 20px para baixo */
+}
+
+/* Estilo para o texto com a classe 'textinho' */
+.textinho {
+  max-width: 620px; /* Define a largura máxima como 620px */
+  font-size: 17px; /* Define o tamanho da fonte como 17px */
+  line-height: 1.6; /* Define o espaçamento entre linhas como 1.6 */
+  text-align: justify; /* Alinha o texto de forma justificada */
+  padding: 1rem; /* Espaçamento interno de 1 rem */
+  z-index: 3; /* Define a ordem de empilhamento */
+  margin-top: -120px; /* Margem superior negativa de -120px */
+  margin-right: 650px; /* Margem direita de 650px */
+  color: #2f4156; /* Define a cor do texto */
+}
+
+/* Estilo para a classe 'duasestrelas' */
+.duasestrelas {
+  position: absolute; /* Define a posição absoluta */
+  width: 550px; /* Define a largura como 550px */
+  margin-top: 10px; /* Margem superior de 10px */
+  margin-right: 800px; /* Margem direita de 800px */
+  transform: rotate(5deg) translateY(10px); /* Rotaciona em 5 graus e desloca 10px para baixo */
+  z-index: 4; /* Define a ordem de empilhamento */
+}
+
+/* Estilo para a classe 'estrela2' */
+.estrela2 {
+  position: absolute; /* Define a posição absoluta */
+  width: 200px; /* Define a largura como 200px */
+  margin-top: 290px; /* Margem superior de 290px */
+  transform: rotate(10deg); /* Rotaciona em 10 graus */
+  z-index: 4; /* Define a ordem de empilhamento */
+}

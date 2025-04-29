@@ -1,0 +1,73 @@
+/* Estiliza a seção principal com fundo escuro e centralização de conteúdo */
+.tela6 {
+  background-color: #2b3b54;          /* Cor de fundo azul escuro */
+  min-height: 110vh;                  /* Altura mínima: 110% da altura da tela (viewport) */
+  display: flex;                      /* Usa flexbox para alinhar conteúdo */
+  justify-content: center;           /* Centraliza horizontalmente */
+  align-items: center;               /* Centraliza verticalmente */
+  font-family: Arial, sans-serif;    /* Define a fonte padrão */
+  padding: 2rem;                     /* Espaçamento interno */
+  position: relative;                /* Define posição relativa para permitir elementos filhos posicionados absolutamente */
+  color: white;                      /* Cor padrão do texto */
+}
+
+/* Estiliza o título da seção de experiência */
+.tituloexperiencia {
+  display: flex;                     /* Layout em flexbox */
+  flex-direction: row;              /* Os filhos ficam lado a lado (em linha) */
+  align-items: flex-start;          /* Alinha os itens no topo do eixo cruzado */
+  gap: 2rem;                         /* Espaço entre os itens */
+  width: 500px;                      /* Largura fixa */
+  position: absolute;               /* Posicionamento absoluto em relação à .tela6 */
+  top: -60px;                        /* Move 60px para cima */
+  right: 520px;                      /* Afasta da borda direita */
+}
+
+/* Container para as imagens das experiências */
+.imgexperiencias {
+  display: flex;                    /* Flexbox para organizar as imagens */
+  flex-direction: column;          /* Empilha as imagens verticalmente */
+  align-items: center;             /* Centraliza horizontalmente */
+  gap: 1rem;                        /* Espaço entre as imagens */
+}
+
+/* Estilização da imagem "tokki" */
+.tokki {
+  width: 750px;                     /* Largura da imagem */
+  height: auto;                     /* Altura ajustada automaticamente */
+  border-radius: 10px;             /* Borda arredondada */
+  position: absolute;              /* Posicionamento independente */
+  top: 130px;                       /* Distância do topo */
+  right: -20px;                     /* Move um pouco para fora da borda direita */
+  transform: rotate(90deg);        /* Gira a imagem 90 graus */
+}
+
+/* Estilização do texto "van" */
+.van {
+  font-size: 25px;                  /* Tamanho da fonte */
+  color: white;                     /* Cor do texto */
+  margin-bottom: 1rem;             /* Espaço inferior */
+  position: absolute;              /* Posicionamento absoluto */
+  top: 200px;                       /* Distância do topo */
+  left: 130px;                      /* Distância da esquerda */
+}
+
+/* Estilização do texto "doces" */
+.doces {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 300px;                       /* Posicionado abaixo do "van" */
+  left: 130px;
+}
+
+/* Estilização do texto "fotografia" */
+.fotografia {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 375px;                       /* Posicionado abaixo do "doces" */
+  left: 130px;
+}

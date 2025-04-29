@@ -1,0 +1,185 @@
+/* Define o estilo da seção com a classe 'tela5' */
+.tela5 {
+  background-color: #F6F3F1; /* Cor de fundo da seção */
+  min-height: 105vh; /* Altura mínima de 105% da altura da janela */
+  display: flex; /* Utiliza layout flexbox */
+  justify-content: center; /* Alinha os itens horizontalmente no centro */
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  font-family: Arial, sans-serif; /* Define a fonte padrão */
+  padding: 2rem; /* Espaçamento interno de 2 rem */
+  position: relative; /* Define a posição relativa para posicionamento interno */
+}
+
+/* Define o estilo para a área geral dos projetos SENAI */
+.prjsenai {
+  position: relative; /* Define a posição relativa */
+  width: 1000px; /* Define a largura como 1000px */
+  display: flex; /* Utiliza layout flexbox */
+  flex-direction: column; /* Alinha os itens em coluna */
+  align-items: center; /* Alinha os itens ao centro horizontalmente */
+  gap: 2rem; /* Espaçamento entre os itens de 2 rem */
+}
+
+/* Estilo do título principal da seção */
+.titulo {
+  display: flex; /* Utiliza layout flexbox */
+  justify-content: center; /* Centraliza o título horizontalmente */
+  position: absolute; /* Define a posição absoluta */
+  top: -220px; /* Posiciona 220px acima do topo */
+  width: 100%; /* Ocupa toda a largura */
+}
+
+/* Estilo para o título do projeto SENAI */
+.tituloprjsenai {
+  width: 600px; /* Define a largura como 600px */
+  height: auto; /* Define altura automática */
+}
+
+/* Estilo para o contêiner de imagens */
+.imgsprjsenai {
+  display: flex; /* Utiliza layout flexbox */
+  flex-direction: row; /* Alinha as imagens em linha */
+  justify-content: center; /* Centraliza as imagens horizontalmente */
+  gap: 3rem; /* Espaçamento de 3 rem entre as imagens */
+  margin-top: 4rem; /* Adiciona margem superior de 4 rem */
+}
+
+/* Estilo para o contêiner de cada projeto */
+.projeto-box {
+  display: flex; /* Utiliza layout flexbox */
+  flex-direction: column; /* Alinha os itens em coluna */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  gap: 1rem; /* Espaçamento de 1 rem entre os itens */
+}
+
+/* Estilos para as imagens dos projetos */
+.arcadismoimg,
+.xavantesimg,
+.veterinarioimg {
+  width: 380px; /* Define a largura como 380px */
+  border-radius: 8px; /* Adiciona bordas arredondadas de 8px */
+  position: relative; /* Define a posição relativa */
+  top: 20px; /* Desloca a imagem 20px para baixo */
+  transition: transform 0.3s ease; /* Adiciona transição suave para transformações */
+}
+
+/* Efeito de hover nas imagens dos projetos */
+.arcadismoimg:hover,
+.xavantesimg:hover,
+.veterinarioimg:hover {
+  transform: scale(1.05); /* Aumenta o tamanho da imagem em 5% ao passar o mouse */
+}
+
+/* Estilo para os títulos das imagens */
+
+/* Título para o projeto 'Veterinário' */
+.veterinariotitulo {
+  width: 290px; /* Define a largura como 290px */
+  height: auto; /* Define altura automática */
+  z-index: 1; /* Prioriza a exibição */
+  position: absolute; /* Define a posição absoluta */
+  top: 280px; /* Posiciona 280px abaixo do topo */
+}
+
+/* Título para o projeto 'Arcadismo' */
+.arcadismotitulo {
+  width: 260px; /* Define a largura como 260px */
+  height: auto; /* Define altura automática */
+  z-index: 1; /* Prioriza a exibição */
+  position: absolute; /* Define a posição absoluta */
+  top: 300px; /* Posiciona 300px abaixo do topo */
+}
+
+/* Título para o projeto 'Xavantes' */
+.xavantestitulo {
+  width: 260px; /* Define a largura como 260px */
+  height: auto; /* Define altura automática */
+  z-index: 1; /* Prioriza a exibição */
+  position: absolute; /* Define a posição absoluta */
+  top: 285px; /* Posiciona 285px abaixo do topo */
+}
+
+/* Estilo para os textos explicativos dos projetos */
+.textosprjsenai {
+  display: flex; /* Utiliza layout flexbox */
+  flex-direction: row; /* Alinha os textos em linha */
+  justify-content: center; /* Centraliza os textos horizontalmente */
+  gap: 3rem; /* Espaçamento de 3 rem entre os textos */
+  margin-top: 2rem; /* Adiciona margem superior de 2 rem */
+}
+
+/* Texto explicativo para o projeto 'Arcadismo' */
+.prjarcadismo {
+  width: 350px; /* Define a largura como 350px */
+  font-size: 18px; /* Define tamanho da fonte como 18px */
+  color: #2b3b54; /* Define a cor do texto */
+  text-align: center; /* Centraliza o texto */
+  position: absolute; /* Define a posição absoluta */
+  top: 400px; /* Posiciona 400px abaixo do topo */
+  left: -100px; /* Posiciona 100px à esquerda */
+}
+
+/* Texto explicativo para o projeto 'Xavantes' */
+.prjxavantes {
+  width: 350px; /* Define a largura como 350px */
+  font-size: 18px; /* Define tamanho da fonte como 18px */
+  color: #2b3b54; /* Define a cor do texto */
+  text-align: center; /* Centraliza o texto */
+  position: absolute; /* Define a posição absoluta */
+  top: 400px; /* Posiciona 400px abaixo do topo */
+  left: 320px; /* Posiciona 320px à direita */
+}
+
+/* Texto explicativo para o projeto 'Veterinário' */
+.prjveterinario {
+  width: 350px; /* Define a largura como 350px */
+  font-size: 18px; /* Define tamanho da fonte como 18px */
+  color: #2b3b54; /* Define a cor do texto */
+  text-align: center; /* Centraliza o texto */
+  position: absolute; /* Define a posição absoluta */
+  top: 400px; /* Posiciona 400px abaixo do topo */
+  left: 750px; /* Posiciona 750px à direita */
+}
+
+/* Estilo para os botões 'Saiba Mais' */
+.saibamais {
+  display: flex; /* Utiliza layout flexbox */
+  flex-direction: row; /* Alinha os botões em linha */
+  justify-content: center; /* Centraliza os botões horizontalmente */
+  gap: 3rem; /* Espaçamento de 3 rem entre os botões */
+  margin-top: 1rem; /* Adiciona margem superior de 1 rem */
+}
+
+/* Estilo para as imagens dos botões 'Saiba Mais' */
+.saibamaisimgs1,
+.saibamaisimgs2,
+.saibamaisimgs3 {
+  width: 250px; /* Define a largura como 250px */
+  height: auto; /* Define altura automática */
+  cursor: pointer; /* Aponta que o elemento é clicável */
+  position: absolute; /* Define a posição absoluta */
+  transition: transform 0.3s ease; /* Adiciona transição suave para transformações */
+}
+
+/* Posição específica de cada botão 'Saiba Mais' */
+.saibamaisimgs1 {
+  top: 440px; /* Posiciona 440px abaixo do topo */
+  left: -50px; /* Posiciona 50px à esquerda */
+}
+
+.saibamaisimgs2 {
+  top: 440px; /* Posiciona 440px abaixo do topo */
+  left: 370px; /* Posiciona 370px à direita */
+}
+
+.saibamaisimgs3 {
+  top: 440px; /* Posiciona 440px abaixo do topo */
+  left: 830px; /* Posiciona 830px à direita */
+}
+
+/* Efeito de hover nos botões 'Saiba Mais' */
+.saibamaisimgs1:hover,
+.saibamaisimgs2:hover,
+.saibamaisimgs3:hover {
+  transform: scale(1.05); /* Aumenta o tamanho em 5% ao passar o mouse */
+}

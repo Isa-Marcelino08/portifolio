@@ -1,0 +1,90 @@
+/* Define o estilo da seção com a classe 'tela4' */
+.tela4 {
+  background-color: #F6F3F1; /* Cor de fundo da seção */
+  min-height: 105vh; /* Altura mínima de 105% da altura da janela */
+  display: flex; /* Utiliza layout flexbox */
+  justify-content: center; /* Alinha os itens horizontalmente no centro */
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  font-family: Arial, sans-serif; /* Define a fonte como Arial com fallback */
+  padding: 2rem; /* Adiciona espaçamento interno de 2 rem */
+  position: relative; /* Define a posição relativa para posicionamento interno */
+}
+
+/* Define o estilo para o título com a classe 'tituloprjsesi' */
+.tituloprjsesi {
+  display: flex; /* Utiliza layout flexbox */
+  flex-direction: row; /* Alinha os itens em linha */
+  align-items: flex-start; /* Alinha os itens no início verticalmente */
+  gap: 2rem; /* Espaçamento entre os itens */
+  width: 500px; /* Define a largura como 500px */
+  position: absolute; /* Define a posição absoluta */
+  top: -100px; /* Posiciona 100px acima do topo */
+  right: 550px; /* Posiciona 550px à direita */
+}
+
+/* Define o estilo para a área geral de imagens */
+.imagensgerais {
+  display: flex; /* Utiliza layout flexbox */
+  flex-direction: column; /* Alinha os itens em coluna */
+  align-items: center; /* Alinha os itens ao centro horizontalmente */
+  gap: 1rem; /* Espaçamento entre os itens */
+}
+
+/* Define o estilo para as imagens do projeto SESI */
+.imgprjsesi {
+  width: 780px; /* Define a largura como 780px */
+  height: auto; /* Define a altura automática para manter a proporção */
+  border-radius: 10px; /* Adiciona bordas arredondadas de 10px */
+  position: absolute; /* Define a posição absoluta */
+  top: 100px; /* Posiciona 100px abaixo do topo */
+  right: -20px; /* Posiciona 20px à esquerda (valor negativo) */
+  transform: rotate(90deg); /* Rotaciona a imagem 90 graus */
+}
+
+/* Define o estilo para os dados do projeto SESI */
+.datasprjsesi {
+  display: flex; /* Utiliza layout flexbox */
+  flex-direction: column; /* Alinha os itens em coluna */
+  align-items: flex-start; /* Alinha os itens ao início horizontalmente */
+  margin-top: 2rem; /* Adiciona uma margem superior de 2 rem */
+}
+
+/* Define o estilo para os anos do projeto SESI */
+.anosprjsesi {
+  width: 500px; /* Define a largura como 500px */
+  height: auto; /* Define a altura automática */
+  margin-bottom: 1rem; /* Adiciona uma margem inferior de 1 rem */
+  position: absolute; /* Define a posição absoluta */
+  top: 150px; /* Posiciona 150px abaixo do topo */
+  left: -20px; /* Posiciona 20px à esquerda (valor negativo) */
+}
+
+/* Define o estilo para o texto do primeiro projeto */
+.prjema {
+  font-size: 25px; /* Define o tamanho da fonte como 25px */
+  color: #2b3b54; /* Define a cor do texto */
+  margin-bottom: 1rem; /* Adiciona uma margem inferior de 1 rem */
+  position: absolute; /* Define a posição absoluta */
+  top: 225px; /* Posiciona 225px abaixo do topo */
+  left: 300px; /* Posiciona 300px à direita */
+}
+
+/* Define o estilo para o texto do segundo projeto */
+.prjmaias {
+  font-size: 25px; /* Define o tamanho da fonte como 25px */
+  color: #2b3b54; /* Define a cor do texto */
+  margin-bottom: 1rem; /* Adiciona uma margem inferior de 1 rem */
+  position: absolute; /* Define a posição absoluta */
+  top: 310px; /* Posiciona 310px abaixo do topo */
+  left: 300px; /* Posiciona 300px à direita */
+}
+
+/* Define o estilo para o link do projeto */
+.prlflink {
+  font-size: 25px; /* Define o tamanho da fonte como 25px */
+  color: #2b3b54; /* Define a cor do texto */
+  margin-bottom: 1rem; /* Adiciona uma margem inferior de 1 rem */
+  position: absolute; /* Define a posição absoluta */
+  top: 375px; /* Posiciona 375px abaixo do topo */
+  left: 300px; /* Posiciona 300px à direita */
+}
