@@ -17,7 +17,7 @@ import Carrossel6 from '../assets/carrossel6.png';
 import Carrossel7 from '../assets/carrossel7.png';
 
 // Importa o arquivo de estilo (CSS)
-import './carrossel.css';
+import './Carrossel.css';
 
 // Lista com todas as imagens que vão aparecer no carrossel
 const images = [
